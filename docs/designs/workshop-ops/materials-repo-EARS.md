@@ -1,44 +1,34 @@
 # Materials Repo — EARS
 
-**Parent LLD**: [Workshop Operations LLD](./LLD.md)
+**Parent LLD**: [Workshop Operations LLD](./LLD.md)  
+**Artifact**: repository root and `README.md`
 
-## Repository Structure
+## Repository Layout
 
-- [ ] **OPS-REPO-001**: The materials repo shall include a README with setup and follow-along instructions.
-- [ ] **OPS-REPO-002**: The materials repo shall include `examples/messy/` with duplicated Marimo notebooks for Part 3 Demo 1.
-- [ ] **OPS-REPO-003**: The materials repo shall include `examples/clean/` with pre-built refactored output as a Part 3 fallback.
-- [ ] **OPS-REPO-004**: The materials repo shall include `templates/repo-scaffold/` for Part 1 Demo 1.
-- [ ] **OPS-REPO-005**: The materials repo shall include `demos/doc-publishing/` for Part 1 Demo 2.
-- [ ] **OPS-REPO-006**: The materials repo shall include `resources/discussion-questions.md` consolidating facilitator prompts.
-- [ ] **OPS-REPO-007**: The materials repo shall include `resources/matt-pocock-architecture-skill.md` with setup or link for Part 3.
-- [ ] **OPS-REPO-008**: The materials repo shall include `resources/marimo-pair-setup.md` for optional post-workshop follow-along.
+- [ ] **ART-REPO-001**: The materials repo shall include a top-level `README.md` with setup and follow-along instructions.
+- [ ] **ART-REPO-002**: The materials repo shall include `examples/messy/` (Part 3 prep staging — messy Marimo notebooks copied into the live pyds project during the demo).
+- [ ] **ART-REPO-003**: The materials repo shall include `examples/clean/` (Part 3 demo fallback output if live agent refactor is slow).
+- [ ] **ART-REPO-004**: The materials repo shall include `examples/pyds-init-demo/` (Part 1 fallback output of `pyds project init`).
+- [ ] **ART-REPO-005**: The materials repo shall include `demos/doc-publishing/` (Part 1 demo).
+- [ ] **ART-REPO-006**: The materials repo shall include `resources/discussion-questions.md`.
+- [ ] **ART-REPO-007**: The materials repo shall include `resources/pyds-cli-setup.md` (Part 1 demo: install, configure, `pyds project init`).
+- [ ] **ART-REPO-008**: The materials repo shall include `resources/matt-pocock-architecture-skill.md`.
+- [ ] **ART-REPO-009**: The materials repo shall include `resources/marimo-pair-setup.md`.
+- [ ] **ART-REPO-010**: The materials repo shall include `resources/keystone-worksheet.md` (or `.pdf`).
+- [ ] **ART-REPO-011**: The materials repo shall include `resources/exit-reflection.md` (or `.pdf`).
 
 ## README Content
 
-- [ ] **OPS-REPO-010**: The README shall state the Python version requirement.
-- [ ] **OPS-REPO-011**: The README shall state that observe-along is sufficient for the in-room session.
-- [ ] **OPS-REPO-012**: Where applicable, the README shall document optional coding agent setup.
-- [ ] **OPS-REPO-013**: Where applicable, the README shall document optional Marimo / Marimo Pair install.
-
-## Demo Artifacts
-
-- [ ] **OPS-REPO-020**: Messy notebooks shall contain realistic duplicated code across 2–3 files (P3-DMO-040).
-- [ ] **OPS-REPO-021**: Clean fallback artifacts shall exist before the workshop (P3-DMO-041).
-- [ ] **OPS-REPO-022**: Repo scaffold template shall be runnable end-to-end on presenter machines (P1-DMO-040).
-- [ ] **OPS-REPO-023**: Doc publishing demo shall be showable in under 2 minutes (P1-DMO-041).
-
-## Fallback Materials
-
-- [ ] **OPS-REPO-030**: Screen recording fallbacks shall exist for Part 1 demos if live environment fails.
-- [ ] **OPS-REPO-031**: Screen recording fallbacks shall exist for Part 3 demos if live agent or Marimo Pair fails.
-
-## Post-Workshop
-
-- [ ] **OPS-REPO-040**: The materials repo shall remain public after the workshop for follow-along.
-- [ ] **OPS-REPO-041**: Presenters shall link the repo URL during Part 3 close (P3-EXIT-010).
+- [ ] **ART-REPO-020**: The README shall state the Python version requirement.
+- [ ] **ART-REPO-021**: The README shall state that observe-along is sufficient for the in-room session.
+- [ ] **ART-REPO-022**: The README shall link to `resources/pyds-cli-setup.md` for optional follow-along on Part 1.
+- [ ] **ART-REPO-023**: The README shall link to optional coding agent setup instructions.
+- [ ] **ART-REPO-024**: The README shall link to optional Marimo / Marimo Pair setup (`resources/marimo-pair-setup.md`).
+- [ ] **ART-REPO-025**: The README shall link to the [Data Science Bootstrap Notes](https://ericmjl.github.io/data-science-bootstrap-notes/) ebook.
 
 ## Related Documents
 
 - [Workshop Operations LLD](./LLD.md)
-- [Part 1 Demo Scripts](../part-1-foundations/demo-scripts-EARS.md)
-- [Part 3 Demo Scripts](../part-3-agents/demo-scripts-EARS.md)
+- [Discussion Questions EARS](./discussion-questions-EARS.md)
+- [Part 1 Demo Artifacts](../part-1-foundations/demo-artifacts-EARS.md)
+- [Part 3 Demo Artifacts](../part-3-agents/demo-artifacts-EARS.md)

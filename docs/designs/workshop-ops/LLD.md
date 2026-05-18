@@ -83,7 +83,7 @@ Follow PyData Boston pattern: public GitHub repo linked at session start.
 
 - [ ] Python version requirement
 - [ ] Optional: coding agent setup (Cursor, Claude Code, etc.)
-- [ ] Optional: Marimo / Marimo Air install
+- [ ] Optional: Marimo / Marimo Pair install
 - [ ] "Observe-along is fine — you don't need any of this installed for the session"
 
 ## Environment Prep Checklist
@@ -96,7 +96,7 @@ Follow PyData Boston pattern: public GitHub repo linked at session start.
 - [ ] Messy notebooks open and verified
 - [ ] Agent + architecture skill tested on messy notebooks
 - [ ] Clean fallback artifacts verified
-- [ ] Marimo Air tested
+- [ ] Marimo Pair tested
 - [ ] Screen recording fallbacks exported
 - [ ] Offline or low-network fallback plan (local builds only)
 
@@ -127,7 +127,7 @@ Generate before session (from transcripts + HLD):
 
 - [ ] Discussion question sets per part
 - [ ] Facilitator notes for each prompt
-- [ ] Demo step-by-step scripts (EARS in Phase 3)
+- [ ] Demo step-by-step scripts (see demo-scripts EARS)
 
 Source inputs:
 
@@ -151,11 +151,14 @@ Source inputs:
 - [ ] Optional: gather feedback (1-min Google form — artifact, keystone, tool columns)
 - [ ] Debrief Eric + Jackie: what to cut/add for next delivery
 
+## Requirements
+
+- [Run-of-Show EARS](./run-of-show-EARS.md)
+- [Materials Repo EARS](./materials-repo-EARS.md)
+
 ## Related Documents
 
 - [High-Level Design](../../high-level-design.md)
 - [Part 1: Foundations & Tooling](../part-1-foundations/LLD.md)
 - [Part 2: Software Standardization](../part-2-software/LLD.md)
 - [Part 3: Agents & Automation](../part-3-agents/LLD.md)
-- [Run-of-Show EARS](./run-of-show-EARS.md) *(Phase 3)*
-- [Materials Repo EARS](./materials-repo-EARS.md) *(Phase 3)*

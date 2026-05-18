@@ -53,7 +53,7 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 │  • What we ship         │  • Doc/refactor/test│  • Matt Pocock  │
 │  • Live demos: repo     │    (either presenter│    architecture │
 │    init, doc publish    │     may lead)       │  • Marimo refactor│
-│                         │                     │  • Marimo Air   │
+│                         │                     │  • Marimo Pair   │
 └─────────────────────────┴─────────────────────┴─────────────────┘
          ↑                           ↑                      ↑
     Either presenter may     Either presenter may    Demo-heavy

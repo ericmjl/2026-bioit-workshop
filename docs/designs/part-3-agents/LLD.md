@@ -18,7 +18,7 @@ By the end of Part 3 (and the workshop), attendees should be able to:
 1. Explain why **standards enable agents** rather than replacing them
 2. Connect the **keystone change** from Part 2 to what agents could help with
 3. Describe the **architecture improvement** pattern (find seams → deepen interfaces → refactor)
-4. Name at least one tool to explore post-workshop (architecture skill, Marimo Pair/Air, CLI)
+4. Name at least one tool to explore post-workshop (architecture skill, Marimo Pair, CLI)
 
 ## Run of Show
 
@@ -27,7 +27,7 @@ By the end of Part 3 (and the workshop), attendees should be able to:
 | 0:00–0:08 | Bridge in + why standards still matter in the agent age | Mini-lecture | Lead |
 | 0:08–0:10 | Brief discussion: who uses coding agents today? | Pulse check | Support runs mic |
 | 0:10–0:28 | Demo: messy notebooks → architecture skill → refactor | Live demo | Lead demos |
-| 0:28–0:38 | Demo: Marimo Air interaction mode | Live demo | Lead demos |
+| 0:28–0:38 | Demo: Marimo Pair interaction mode | Live demo | Lead demos |
 | 0:38–0:43 | Exit reflection: one artifact, one keystone, one tool | Individual | Lead |
 | 0:43–0:45 | Close: thanks, repo link, optional Q&A buffer | Monologue | Either |
 
@@ -84,24 +84,24 @@ By the end of Part 3 (and the workshop), attendees should be able to:
 - Matt Pocock codebase architecture improvement skill
 - YouTube explainer on "deepen" (link in repo README)
 
-## Live Demo 2: Marimo Air (~10 min)
+## Live Demo 2: Marimo Pair (~10 min)
 
 ### Purpose
 
-Show a **different interaction mode** for notebook work — agent controlling a Marimo notebook in real time. "Taste of the future" without requiring attendees to set up Marimo Pair.
+Show a **different interaction mode** for notebook work — agent controlling a Marimo notebook in real time via Marimo Pair. "Taste of the future" in observe-along form; attendees can try later using `resources/marimo-pair-setup.md`.
 
 ### Demo script (high level)
 
 ```
-1. Open Marimo Air session on a notebook relevant to workshop theme
+1. Open Marimo Pair session on a notebook relevant to workshop theme
 2. Show natural-language control: add cell, refactor, explain
 3. Contrast with copy-paste into ChatGPT — workflow stays in the notebook
-4. Mention Marimo Pair skill for attendees who want to try later
+4. Point attendees to marimo-pair-setup.md for optional follow-along
 ```
 
 ### Prep requirements
 
-- [ ] Marimo Air working on presenter's machine
+- [ ] Marimo Pair working on presenter's machine
 - [ ] Notebook pre-loaded (can be same domain as Demo 1 post-refactor)
 - [ ] Fallback: short screen recording
 
@@ -126,7 +126,7 @@ Show a **different interaction mode** for notebook work — agent controlling a 
 | Few attendees use agents | Frame as "coming soon" — Parts 1–2 stand alone; keystone doesn't require agents |
 | Agent demo is slow | Cut to pre-built clean output; narrate what agent would do |
 | Audience wants hands-on | Point to repo; support helps motivated folks after session |
-| Running over time | Cut Marimo Air to 5 min or recording; keep exit reflection |
+| Running over time | Cut Marimo Pair to 5 min or recording; keep exit reflection |
 | "Agents make standards obsolete" | Redirect to bridge-in argument: agents follow patterns, don't create them |
 
 ## Dependencies
@@ -135,7 +135,12 @@ Show a **different interaction mode** for notebook work — agent controlling a 
 - Part 2 complete (practices + keystone change written down)
 - Workshop repo: `examples/messy/`, `examples/clean/`
 - Matt Pocock architecture improvement skill configured
-- Marimo Air installed and tested
+- Marimo Pair installed and tested
+
+## Requirements
+
+- [Demo Scripts EARS](./demo-scripts-EARS.md)
+- [Exit Reflection EARS](./exit-reflection-EARS.md)
 
 ## Related Documents
 
@@ -143,5 +148,3 @@ Show a **different interaction mode** for notebook work — agent controlling a 
 - [Part 1: Foundations & Tooling](../part-1-foundations/LLD.md)
 - [Part 2: Software Standardization](../part-2-software/LLD.md)
 - [Workshop Operations](../workshop-ops/LLD.md)
-- [Demo Scripts EARS](./demo-scripts-EARS.md) *(Phase 3)*
-- [Exit Reflection EARS](./exit-reflection-EARS.md) *(Phase 3)*

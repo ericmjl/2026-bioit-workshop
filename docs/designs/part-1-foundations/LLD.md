@@ -144,10 +144,13 @@ No worksheet required, but attendees should leave Part 1 with mental notes on:
 - Discussion question bank (EARS: `discussion-prompts-EARS.md`)
 - Repo template and doc publishing demo environment pre-tested
 
+## Requirements
+
+- [Discussion Prompts EARS](./discussion-prompts-EARS.md)
+- [Demo Scripts EARS](./demo-scripts-EARS.md)
+
 ## Related Documents
 
 - [High-Level Design](../../high-level-design.md)
 - [Part 2: Software Standardization](../part-2-software/LLD.md)
 - [Workshop Operations](../workshop-ops/LLD.md)
-- [Discussion Prompts EARS](./discussion-prompts-EARS.md) *(Phase 3)*
-- [Demo Scripts EARS](./demo-scripts-EARS.md) *(Phase 3)*

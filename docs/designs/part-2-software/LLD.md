@@ -143,10 +143,13 @@ Each attendee leaves Part 2 with:
 - Workshop repo may include example test/doc files
 - Bootstrap ebook chapters on testing, docs (reference, not required reading in room)
 
+## Requirements
+
+- [Discussion Prompts EARS](./discussion-prompts-EARS.md)
+- [Keystone Exercise EARS](./keystone-exercise-EARS.md)
+
 ## Related Documents
 
 - [High-Level Design](../../high-level-design.md)
 - [Part 1: Foundations & Tooling](../part-1-foundations/LLD.md)
 - [Part 3: Agents & Automation](../part-3-agents/LLD.md)
-- [Discussion Prompts EARS](./discussion-prompts-EARS.md) *(Phase 3)*
-- [Keystone Exercise EARS](./keystone-exercise-EARS.md) *(Phase 3)*

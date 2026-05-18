@@ -144,9 +144,7 @@ Attendees can articulate (on exit or in a brief reflection):
 
 ## Related Designs
 
-*(Phase 2 — LLDs per workshop section)*
-
-- [Part 1: Foundations & Tooling](./designs/part-1-foundations/LLD.md)
-- [Part 2: Software Standardization](./designs/part-2-software/LLD.md)
-- [Part 3: Agents & Automation](./designs/part-3-agents/LLD.md)
-- [Workshop Operations](./designs/workshop-ops/LLD.md) — repo, co-presenter playbook, role swaps, timing, materials
+- [Part 1 LLD](./designs/part-1-foundations/LLD.md)
+- [Part 2 LLD](./designs/part-2-software/LLD.md)
+- [Part 3 LLD](./designs/part-3-agents/LLD.md)
+- [Workshop Operations LLD](./designs/workshop-ops/LLD.md)

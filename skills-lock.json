@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "coherent-writing": {
+      "source": "ericmjl/skills",
+      "sourceType": "github",
+      "skillPath": "skills/coherent-writing/SKILL.md",
+      "computedHash": "c8664ca3c41323e902f5ebbc7accde3a4d0a3187ea491ae9f2851571e7379408"
+    }
+  }
+}

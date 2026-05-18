@@ -50,7 +50,7 @@ Either presenter may lead or support. When **supporting**:
 
 - Help attendees following along (optional — most observe)
 - Watch for error messages on lead's screen; flag if something breaks
-- Have fallback recording ready to narrate
+- Have pre-built artifacts ready to narrate if a demo fails
 
 ### Popcorn contributions
 
@@ -66,15 +66,16 @@ Follow PyData Boston pattern: public GitHub repo linked at session start.
 ├── README.md                 # Setup, follow-along instructions
 ├── docs/                     # Design docs (optional to link)
 ├── examples/
-│   ├── messy/                # Duplicated Marimo notebooks (Part 3)
-│   └── clean/                # Refactored output (Part 3 fallback)
-├── templates/
-│   └── repo-scaffold/        # Cookiecutter/copier template (Part 1)
+│   ├── messy/                # Part 3 prep staging — copy into live pyds project notebooks/
+│   ├── clean/                # Part 3 fallback — pre-built refactor if live agent is slow
+│   └── pyds-init-demo/       # Pre-built pyds project init output (Part 1 fallback)
 ├── demos/
-│   ├── doc-publishing/       # MkDocs or equivalent (Part 1)
-│   └── cli-example/          # Optional CLI demo artifact
+│   └── doc-publishing/       # MkDocs or equivalent (Part 1)
 └── resources/
     ├── discussion-questions.md
+    ├── keystone-worksheet.md
+    ├── exit-reflection.md
+    ├── pyds-cli-setup.md     # Install, configure, pyds project init (Part 1)
     ├── matt-pocock-architecture-skill.md
     └── marimo-pair-setup.md
 ```
@@ -91,14 +92,14 @@ Follow PyData Boston pattern: public GitHub repo linked at session start.
 ### Presenter machines (both)
 
 - [ ] Repo cloned, dependencies installed
-- [ ] Repo init demo tested end-to-end
+- [ ] `pyds configure` completed; `pyds project init --no-github` tested end-to-end
+- [ ] `pyds system status` passes (pixi, git, uv)
 - [ ] Doc publishing demo tested (<2 min to show publish)
-- [ ] Messy notebooks open and verified
-- [ ] Agent + architecture skill tested on messy notebooks
-- [ ] Clean fallback artifacts verified
+- [ ] Messy notebooks in `examples/messy/` open and verified
+- [ ] Copy from `examples/messy/` into live pyds project `notebooks/` rehearsed
+- [ ] Agent + architecture skill tested on copied notebooks in live project
+- [ ] Clean fallback artifacts verified (`examples/clean/`, `examples/pyds-init-demo/`)
 - [ ] Marimo Pair tested
-- [ ] Screen recording fallbacks exported
-- [ ] Offline or low-network fallback plan (local builds only)
 
 ### Room / AV
 
@@ -127,7 +128,7 @@ Generate before session (from transcripts + HLD):
 
 - [ ] Discussion question sets per part
 - [ ] Facilitator notes for each prompt
-- [ ] Demo step-by-step scripts (see demo-scripts EARS)
+- [ ] Demo artifact specs (see demo-artifacts EARS per part)
 
 Source inputs:
 
@@ -139,7 +140,7 @@ Source inputs:
 
 | Risk | Owner | Mitigation |
 |------|-------|------------|
-| Demo failure | Lead | Fallback recording; narrate pre-built artifact |
+| Demo failure | Lead | Narrate from pre-built artifact in repo |
 | Discussion overrun | Lead | Hard stops in run-of-show; cut plenary shares |
 | Low agent adoption in audience | Lead | Frame agents as optional; Parts 1–2 stand alone |
 | Co-presenter unclear on role | Both | Confirm default assignment; rehearse swap at break |
@@ -153,8 +154,8 @@ Source inputs:
 
 ## Requirements
 
-- [Run-of-Show EARS](./run-of-show-EARS.md)
 - [Materials Repo EARS](./materials-repo-EARS.md)
+- [Discussion Questions EARS](./discussion-questions-EARS.md)
 
 ## Related Documents
 

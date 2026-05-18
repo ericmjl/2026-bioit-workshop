@@ -16,7 +16,7 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 1. **Clarity on shipping** — Attendees leave with a working hypothesis: *what* their team ships (technical artifacts) and *where the boundaries are*.
 2. **Escape the analysis treadmill** — Reframe work toward reusable outputs (packages, CLIs, APIs, published docs) that create leverage for the team and collaborators.
 3. **Concrete technical patterns** — Show (not just tell) tooling that makes the right thing easy: repo init, doc publishing, CLI building, testing/docs/refactoring, agent-assisted development.
-4. **Keystone adoption** — Identify one low-effort, high-pain change they can propose to their team on Monday (e.g., standardize shipping format, migrate off conda, adopt a repo template).
+4. **Keystone adoption** — Identify one low-effort, high-pain change they can propose to their team on Monday (e.g., standardize shipping format, migrate off conda, adopt `pyds project init` for new repos).
 
 ## Non-Goals
 
@@ -64,7 +64,7 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 **Supporting materials** (not delivered in-room, but part of the content system):
 
 - Git repo with follow-along setup (PyData Boston pattern)
-- Example messy Marimo notebooks + cleaned refactor output
+- Example messy Marimo notebooks (prep staging in materials repo; copied into live pyds project during Part 3) + cleaned refactor fallback
 - Discussion question sets per section
 - Presenter run-of-show notes
 
@@ -76,7 +76,7 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 |---------|------------|----------|
 | **What you ship** | Reusable output that creates leverage | Python package, CLI on compute, API endpoint, published Confluence/docs, Slack slash command |
 | **What you don't ship** | One-off analysis with no repeat path | Ad hoc notebook → email → forget |
-| **Keystone change** | Small effort, high pain relief, unlocks other practices | Standardize artifact type; pixi migration; repo template |
+| **Keystone change** | Small effort, high pain relief, unlocks other practices | Standardize artifact type; pixi migration; pyds-cli for project init |
 | **When to invest** | Repeatable work → architect; one-off with high variation → don't | Bet time where ROI is visible from org knowledge |
 
 ## Key Design Decisions
@@ -124,14 +124,14 @@ Attendees can articulate (on exit or in a brief reflection):
 1. One **technical artifact** their team should standardize on
 2. One **keystone change** they'd propose to their team next week
 3. Why **standardization helps agents** (not replaces them)
-4. At least one **tool** they'd explore (repo template, doc publishing, CLI, Marimo Pair, architecture-improvement skill)
+4. At least one **tool** they'd explore (pyds-cli, doc publishing, CLI, Marimo Pair, architecture-improvement skill)
 
 ## Risks and Mitigations
 
 | Risk | Mitigation |
 |------|------------|
 | Discussion runs long; demos get cut | Timebox sections; presenter run-of-show with hard stops |
-| Live demo fails | Pre-recorded fallback clips; cleaned-up "after" artifacts in repo |
+| Live demo fails | Narrate from pre-built artifacts in repo (`examples/pyds-init-demo/`, `examples/clean/`) |
 | Audience without agents feels excluded | Frame agents as optional accelerator; fundamentals stand alone |
 | Content too Moderna-specific | Use industry-generic examples; invite attendee stories via mic |
 | "My team won't adopt this" | Keystone principle + incremental adoption; don't fix what isn't broken |

@@ -62,27 +62,27 @@ By the end of Part 3 (and the workshop), attendees should be able to:
 ### Demo script (high level)
 
 ```
-1. Open `examples/messy/` — 2–3 notebooks with obvious duplication
-2. Frame: "This is the analysis treadmill from Part 1 — duplicated code, no shared modules"
-3. Explain "seams" and "deepen" (30 sec — point to YouTube/resource in repo)
-4. Prompt agent with architecture improvement skill against notebook collection
-5. Walk through agent's proposed extractions
-6. Show `examples/clean/` — refactored package or shared module
-7. Tie back: "Part 2 said refactor when you duplicate — here's an agent doing that work"
-8. Optional: run extracted CLI or import shared function
+1. Callback to Part 1: open the live pyds project created during Demo 2 (or re-init if needed)
+2. Copy messy notebooks from workshop repo `examples/messy/` into live project `notebooks/`
+   — narrate: "Even with a good scaffold, analysis debt still lands here"
+3. Open copied notebooks — 2–3 files with obvious duplicated functions
+4. Frame: "This is the analysis treadmill from Part 1 — duplicated code, no shared modules"
+5. Explain "seams" and "deepen" (30 sec — point to YouTube/resource in repo)
+6. Prompt agent with architecture improvement skill against the live project's notebooks/
+7. Walk through agent's proposed extractions (ideally in the live project)
+8. If live refactor is slow: show `examples/clean/` fallback — pre-built refactored package
+9. Tie back: "Part 2 said refactor when you duplicate — here's an agent doing that work"
+10. Optional: run extracted CLI or import shared function from live or fallback project
 ```
 
 ### Prep requirements
 
-- [ ] Messy notebooks with realistic duplication (not toy one-liners)
-- [ ] Pre-run agent refactor saved in `examples/clean/` as fallback
+- [ ] Messy notebooks authored in workshop repo `examples/messy/` with realistic duplication
+- [ ] Copy-into-live-project step rehearsed (Part 1 pyds project → Part 3 notebooks/)
+- [ ] Pre-run agent refactor saved in `examples/clean/` as fallback (narrate if live agent is slow)
 - [ ] Architecture improvement skill installed / prompt ready
-- [ ] Screen recording fallback if live agent is slow or fails
-
-### References
-
-- Matt Pocock codebase architecture improvement skill
-- YouTube explainer on "deepen" (link in repo README)
+- [ ] Matt Pocock codebase architecture improvement skill
+- [ ] YouTube explainer on "deepen" (link in repo README)
 
 ## Live Demo 2: Marimo Pair (~10 min)
 
@@ -103,7 +103,7 @@ Show a **different interaction mode** for notebook work — agent controlling a 
 
 - [ ] Marimo Pair working on presenter's machine
 - [ ] Notebook pre-loaded (can be same domain as Demo 1 post-refactor)
-- [ ] Fallback: short screen recording
+- [ ] Fallback: skip live session and walk through a notebook that was prepared beforehand
 
 ## Exit Reflection (~5 min)
 
@@ -126,20 +126,20 @@ Show a **different interaction mode** for notebook work — agent controlling a 
 | Few attendees use agents | Frame as "coming soon" — Parts 1–2 stand alone; keystone doesn't require agents |
 | Agent demo is slow | Cut to pre-built clean output; narrate what agent would do |
 | Audience wants hands-on | Point to repo; support helps motivated folks after session |
-| Running over time | Cut Marimo Pair to 5 min or recording; keep exit reflection |
+| Running over time | Cut Marimo Pair to 5 min or skip; keep exit reflection |
 | "Agents make standards obsolete" | Redirect to bridge-in argument: agents follow patterns, don't create them |
 
 ## Dependencies
 
 - Part 1 complete (diagnosis + picture of good)
 - Part 2 complete (practices + keystone change written down)
-- Workshop repo: `examples/messy/`, `examples/clean/`
+- Workshop repo: `examples/messy/` (prep staging), live pyds project from Part 1 (demo target), `examples/clean/` (fallback)
 - Matt Pocock architecture improvement skill configured
 - Marimo Pair installed and tested
 
 ## Requirements
 
-- [Demo Scripts EARS](./demo-scripts-EARS.md)
+- [Demo Artifacts EARS](./demo-artifacts-EARS.md)
 - [Exit Reflection EARS](./exit-reflection-EARS.md)
 
 ## Related Documents

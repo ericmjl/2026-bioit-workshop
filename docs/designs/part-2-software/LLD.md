@@ -99,7 +99,7 @@ No extended build-vs-buy debate — if someone wants to go deep, take it offline
 
 **Individual** (3 min):
 
-> Write down one change your team could make that is **high pain relief, low effort**. Examples: standardize on one artifact type, adopt a repo template, migrate off conda, require docs in repo.
+> Write down one change your team could make that is **high pain relief, low effort**. Examples: standardize on one artifact type, adopt `pyds project init` for new repos, migrate off conda, require docs in repo.
 
 **Pair share** (3 min): Compare with neighbor. Would their team buy in?
 
@@ -145,8 +145,8 @@ Each attendee leaves Part 2 with:
 
 ## Requirements
 
-- [Discussion Prompts EARS](./discussion-prompts-EARS.md)
-- [Keystone Exercise EARS](./keystone-exercise-EARS.md)
+- [Keystone Worksheet EARS](./keystone-worksheet-EARS.md)
+- [Discussion Questions EARS](../workshop-ops/discussion-questions-EARS.md)
 
 ## Related Documents
 

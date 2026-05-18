@@ -76,17 +76,18 @@ Demos are **show-don't-tell**: attendees should leave thinking "I want that for 
 
 **Purpose**: Show the end state — starting a new project doesn't require reinventing structure every time.
 
-**Content** (adapt from PyData Boston / Data Science Bootstrap patterns):
+**Content** (live demo uses [pyds-cli](https://ericmjl.github.io/pyds-cli/)):
 
-- Scaffold a new repo from a template (cookiecutter, `copier`, or internal equivalent)
-- Highlight what the template encodes: directory layout, CI stub, docs config, testing stub
+- Run `pyds project init --no-github` to scaffold a new project in one interactive command
+- Highlight what pyds encodes via the [cookiecutter-python-project](https://github.com/ericmjl/cookiecutter-python-project) template: `notebooks/`, a named source package with CLI stub, pre-commit hooks, pytest layout, and pixi environment setup
 - Narrate aspirationally: "On a team that has its act together, the first commit is already aligned with team standards. No one debates folder structure on day one."
 
 **Prep requirements**:
 
-- [ ] Template repo or CLI ready to run offline / with minimal network
-- [ ] Pre-tested on presenter's machine
-- [ ] Fallback: screen recording or pre-built repo in workshop materials
+- [ ] `pyds configure` completed on presenter's machine before the workshop
+- [ ] Prerequisites verified: `pixi`, `git`, `uv` (`pyds system status`)
+- [ ] `pyds project init --no-github` tested end-to-end before the session
+- [ ] Fallback: `examples/pyds-init-demo/` in workshop materials (narrate from pre-built tree if live init fails)
 
 ### Demo 2: What Docs-From-Code Looks Like
 
@@ -134,20 +135,20 @@ No worksheet required, but attendees should leave Part 1 with mental notes on:
 | "Our team is fine, no problems" | Validate — non-goal is forcing change. Ask: "What would break first if you doubled in size?" |
 | "We're too regulated to build tools" | Acknowledge; Part 2 formality aside covers buy vs build in regulated contexts |
 | Group dominates airtime | Support triages: "Hold that — good for plenary" or answer 1:1 |
-| Demo environment fails | Switch to fallback recording; narrate from pre-built repo |
+| Demo environment fails | Switch to `examples/pyds-init-demo/`; narrate from pre-built project tree |
 | Low discussion energy | Lead asks a provocative question: "Dashboards — how many of you ship them? How many maintain them?" |
 | "Can we follow along now?" | Observe-along for now; repo linked at close; Part 2 is about what to adopt first |
 
 ## Dependencies
 
 - Workshop repo with setup instructions ([Workshop Operations LLD](../workshop-ops/LLD.md))
-- Discussion question bank (EARS: `discussion-prompts-EARS.md`)
-- Repo template and doc publishing demo environment pre-tested
+- Discussion question bank ([Discussion Questions EARS](../workshop-ops/discussion-questions-EARS.md))
+- Repo template and doc publishing demo environment pre-tested (`pyds project init`, doc site)
 
 ## Requirements
 
-- [Discussion Prompts EARS](./discussion-prompts-EARS.md)
-- [Demo Scripts EARS](./demo-scripts-EARS.md)
+- [Demo Artifacts EARS](./demo-artifacts-EARS.md)
+- [Discussion Questions EARS](../workshop-ops/discussion-questions-EARS.md)
 
 ## Related Documents
 

@@ -3,7 +3,7 @@
 **BioIT World 2026** — one document to lead from in the room.
 
 Audience: **data science team leads**. Mode: discussion-first, observe-along demos.
-Repo: https://github.com/ericmjl/2026-bioit-workshop
+Repo: <https://github.com/ericmjl/2026-bioit-workshop>
 
 **Default roles** (swap at break):
 
@@ -276,8 +276,8 @@ Natural-language actions: add cell, refactor, explain. Contrast with copy-paste 
 
 ### Close (lead)
 
-- Repo URL: https://github.com/ericmjl/2026-bioit-workshop
-- Bootstrap ebook: https://ericmjl.github.io/data-science-bootstrap-notes/
+- Repo URL: <https://github.com/ericmjl/2026-bioit-workshop>
+- Bootstrap ebook: <https://ericmjl.github.io/data-science-bootstrap-notes/>
 - **Say:** "If nothing is broken, don't fix it. If clarity is missing, start with what you ship."
 
 Optional buffer for Q&A if the slot allows.

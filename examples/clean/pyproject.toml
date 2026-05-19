@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "assay-helpers"
+version = "0.1.0"
+description = "Refactored assay helpers (Part 3 clean fallback)"
+requires-python = ">=3.11"
+dependencies = ["numpy", "pandas"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["assay_helpers"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[project.scripts]
+assay-qc = "assay_helpers.cli:app"

@@ -1,0 +1,23 @@
+site_name: BioIT Workshop Demo
+site_url: https://ericmjl.github.io/2026-bioit-workshop/
+
+docs_dir: docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+
+nav:
+  - Home: index.md
+  - Getting started: getting-started.md
+
+repo_name: ericmjl/2026-bioit-workshop
+repo_url: https://github.com/ericmjl/2026-bioit-workshop

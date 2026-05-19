@@ -1,0 +1,17 @@
+site_name: BioIT Workshop — Docs Demo
+site_url: https://ericmjl.github.io/2026-bioit-workshop/
+
+docs_dir: docs/
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - What we ship: what-we-ship.md
+
+repo_name: ericmjl/2026-bioit-workshop
+repo_url: https://github.com/ericmjl/2026-bioit-workshop

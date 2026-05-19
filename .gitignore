@@ -2,5 +2,5 @@
 __pycache__/
 *.py[cod]
 _demo_screen_hits.csv
-examples/messy/__marimo__/session/screen_hit_qc.py.json
+examples/messy/__marimo__/session/*.json
 _demo_dose_response.csv

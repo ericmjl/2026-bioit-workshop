@@ -77,6 +77,7 @@ Follow PyData Boston pattern: public GitHub repo linked at session start.
     ├── exit-reflection.md
     ├── pyds-cli-setup.md     # Part 1: pyds configure + project init
     ├── follow-along-setup.md # Participant setup (uv + pixi)
+    ├── facilitator-runbook.md # Presenter chronological script
     ├── matt-pocock-architecture-skill.md
     └── marimo-pair-setup.md
 ```
@@ -159,6 +160,7 @@ Source inputs:
 - [Materials Repo EARS](./materials-repo-EARS.md)
 - [Discussion Questions EARS](./discussion-questions-EARS.md)
 - [Follow-Along Setup EARS](./follow-along-setup-EARS.md)
+- [Facilitator Runbook EARS](./facilitator-runbook-EARS.md)
 
 ## Related Documents
 

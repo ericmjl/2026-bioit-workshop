@@ -1,7 +1,8 @@
 # Discussion Questions
 
-Facilitator reference for Parts 1 and 2. Demo step-by-step scripts live in the
-Part 1 and Part 3 demo artifact specs — not here.
+Facilitator reference for Parts 1 and 2. For the full chronological script (discussion +
+demos + keystone + Part 3), use [`facilitator-runbook.md`](facilitator-runbook.md).
+Demo step detail also lives in the Part LLDs under `docs/designs/`.
 
 ---
 

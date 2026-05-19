@@ -42,6 +42,8 @@ pixi run test-clean-fallback      # Part 3 — refactored package tests
 
 Facilitator prompts: [`discussion-questions.md`](resources/discussion-questions.md)
 
+**Presenters:** chronological runbook at [`resources/facilitator-runbook.md`](resources/facilitator-runbook.md).
+
 ## Part-specific guides
 
 - **Environment (start here)**: [`follow-along-setup.md`](resources/follow-along-setup.md)

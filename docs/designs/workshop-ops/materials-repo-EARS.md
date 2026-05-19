@@ -14,6 +14,7 @@
 - [x] **ART-REPO-007**: The materials repo shall include `resources/pyds-cli-setup.md` (Part 1 demo: install, configure, `pyds project init`).
 - [x] **ART-REPO-012**: The materials repo shall include `resources/follow-along-setup.md` (participant setup: uv + pixi).
 - [x] **ART-REPO-013**: The materials repo shall include a root `pixi.toml` for the workshop follow-along environment.
+- [x] **ART-REPO-014**: The materials repo shall include `resources/facilitator-runbook.md` (presenter chronological script).
 - [x] **ART-REPO-008**: The materials repo shall include `resources/matt-pocock-architecture-skill.md`.
 - [x] **ART-REPO-009**: The materials repo shall include `resources/marimo-pair-setup.md`.
 - [x] **ART-REPO-010**: The materials repo shall include `resources/keystone-worksheet.md` (or `.pdf`).
@@ -35,5 +36,6 @@
 - [Workshop Operations LLD](./LLD.md)
 - [Discussion Questions EARS](./discussion-questions-EARS.md)
 - [Follow-Along Setup EARS](./follow-along-setup-EARS.md)
+- [Facilitator Runbook EARS](./facilitator-runbook-EARS.md)
 - [Part 1 Demo Artifacts](../part-1-foundations/demo-artifacts-EARS.md)
 - [Part 3 Demo Artifacts](../part-3-agents/demo-artifacts-EARS.md)

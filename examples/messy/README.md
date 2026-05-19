@@ -29,8 +29,10 @@ the refactor demo.
 
 ## Open locally (optional)
 
+Requires [uv](https://docs.astral.sh/uv/) on your `PATH`:
+
 ```bash
-marimo edit examples/messy/screen_hit_qc.py
+uvx marimo edit --sandbox --no-token examples/messy/screen_hit_qc.py
 ```
 
-Requires `marimo`, `pandas`, and `numpy` in your environment.
+`--sandbox` installs notebook dependencies (pandas, numpy) automatically.

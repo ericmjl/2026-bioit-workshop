@@ -23,9 +23,15 @@ architecture improvement skill at `notebooks/`.
 | `dose_response_fit.py` | Dose-response curve prep |
 | `expression_filter.py` | RNA-seq count filtering |
 
-Each notebook reimplements `load_assay_table`, `remove_outliers`, and
+Each notebook originally reimplemented `load_assay_table`, `remove_outliers`, and
 `normalize_to_control` with slightly different logic — realistic duplication for
-the refactor demo.
+the refactor demo. A completed refactor lives in `assay_helpers/`; see
+[REFACTOR-WALKTHROUGH.md](refactor-walkthrough.md) for the full session
+narrative (architecture choices, live Marimo pairing, and style rules).
+
+For the follow-on **dose-response Marimo pair session** (markdown narration,
+broadcast bug fix, Plotly triplicate curves), see
+[MARIMO-PAIR-TRANSCRIPT.md](marimo-pair-transcript.md).
 
 ## Open locally (optional)
 

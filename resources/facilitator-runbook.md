@@ -5,12 +5,12 @@
 Audience: **data science team leads**. Mode: discussion-first, observe-along demos.
 Repo: <https://github.com/ericmjl/2026-bioit-workshop>
 
-**Default roles** (swap at break):
+**Fixed roles** (no swap at break):
 
 | Segment | Lead | Support |
 |---------|------|---------|
 | Part 1 | Eric | Jackie |
-| Part 2 | Jackie | Eric |
+| Part 2 | Eric | Jackie |
 | Part 3 | Eric | Jackie |
 
 Attendee handouts: [`keystone-worksheet.md`](keystone-worksheet.md), [`exit-reflection.md`](exit-reflection.md).
@@ -121,7 +121,7 @@ shipping format — clarity for collaborators.
 > After the break, we'll talk about **how your team gets there**: the practices that
 > matter, and the one change you'd make first.
 
-**Swap lead/support** if planned. Keep live pyds project open for Part 3.
+Keep live pyds project open for Part 3.
 
 ---
 
@@ -154,7 +154,7 @@ shipping format — clarity for collaborators.
 > You don't need perfection. You need enough structure that the next person — or an
 > agent — can follow the pattern.
 
-### Mini-lecture: doc, refactor, test (either presenter)
+### Mini-lecture: doc, refactor, test (Eric; Jackie may popcorn)
 
 **Doc:** what the next person needs — install, run, I/O, assumptions. README beats wiki.
 
@@ -306,7 +306,7 @@ Optional buffer for Q&A if the slot allows.
 - [ ] Architecture skill + prompt ready; `examples/clean/` verified
 - [ ] Marimo Pair + `pixi global install nodejs` / `npx --version`
 - [ ] Terminal font readable from back row; HDMI tested
-- [ ] Confirm role swap with co-presenter
+- [ ] Confirm fixed roles with co-presenter (Eric lead, Jackie support)
 
 ---
 

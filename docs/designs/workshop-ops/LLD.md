@@ -9,29 +9,29 @@ This LLD covers everything needed to **deliver** the workshop: materials repo, c
 
 ## Master Run of Show
 
-| Clock | Segment | Duration | Default lead | Role swap? |
-|-------|---------|----------|--------------|------------|
-| 0:00 | Part 1: Foundations & Tooling | 45 min | TBD | — |
-| 0:45 | **Break** | 15 min | — | **Swap lead/support here** |
-| 1:00 | Part 2: Software Standardization | 45 min | TBD | — |
-| 1:45 | Part 3: Agents & Automation | 45 min | TBD | Optional swap at 1:45 |
-| 2:30 | Buffer / Q&A | 0–15 min | Either | — |
+| Clock | Segment | Duration | Lead | Support |
+|-------|---------|----------|------|---------|
+| 0:00 | Part 1: Foundations & Tooling | 45 min | Eric | Jackie |
+| 0:45 | **Break** | 15 min | — | — |
+| 1:00 | Part 2: Software Standardization | 45 min | Eric | Jackie |
+| 1:45 | Part 3: Agents & Automation | 45 min | Eric | Jackie |
+| 2:30 | Buffer / Q&A | 0–15 min | Eric | Jackie |
 
 **Booked slot**: 3 hours. **Content**: ~2h 15m. Buffer absorbs discussion overruns or Q&A.
 
-### Suggested default assignment (editable)
+### Fixed assignment
 
 | Segment | Lead | Support |
 |---------|------|---------|
 | Part 1 | Eric | Jackie |
-| Part 2 | Jackie | Eric |
+| Part 2 | Eric | Jackie |
 | Part 3 | Eric | Jackie |
 
-Swap at break is the natural handoff. Confirm with Jackie before dry run.
+Eric and Jackie are **not** swapping lead/support at the break or between parts. Jackie supports the full session (mic routing, circulation, follow-along help, popcorn examples). Confirm before dry run.
 
 ## Co-Presenter Playbook
 
-Either presenter may lead or support. When **supporting**:
+**Eric** leads every segment (discussion facilitation, demos, bridges). **Jackie** supports throughout. When **supporting**:
 
 ### During discussion
 
@@ -120,7 +120,7 @@ Run at least one full timed dry run before BioIT World.
 | Part 1 completes in ≤45 min with one plenary share | |
 | Part 2 keystone exercise not cut | |
 | Part 3 both demos work or fallbacks ready | |
-| Role swap at break feels smooth | |
+| Jackie support playbook (mic, circulation) feels smooth | |
 | Support can triage a planted question correctly | |
 | Exit reflection fits in 5 min | |
 | Total content ≤2h 15m | |
@@ -146,7 +146,7 @@ Source inputs:
 | Demo failure | Lead | Narrate from pre-built artifact in repo |
 | Discussion overrun | Lead | Hard stops in run-of-show; cut plenary shares |
 | Low agent adoption in audience | Lead | Frame agents as optional; Parts 1–2 stand alone |
-| Co-presenter unclear on role | Both | Confirm default assignment; rehearse swap at break |
+| Co-presenter unclear on role | Both | Confirm fixed assignment (Eric lead, Jackie support all parts) |
 | Attendees can't see screen | Support | Repeat key points verbally; repo for later |
 
 ## Post-Workshop

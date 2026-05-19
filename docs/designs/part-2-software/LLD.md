@@ -2,7 +2,7 @@
 
 **Created**: 2026-05-18
 **Duration**: ~45 minutes
-**Default lead**: TBD (good candidate for Jackie — doc/refactor/test)
+**Lead**: Eric · **Support**: Jackie (fixed for full workshop; Jackie may add popcorn examples on doc/refactor/test)
 **HLD Link**: [High-Level Design](../../high-level-design.md)
 
 ## Overview
@@ -26,7 +26,7 @@ By the end of Part 2, attendees should be able to:
 |------|-------|------|------|
 | 0:00–0:05 | Bridge from Part 1: destination → road | Brief monologue | Lead |
 | 0:05–0:15 | Discussion: docs / refactor / test — what's your experience? | Discussion | Lead facilitates |
-| 0:15–0:25 | Mini-lecture: how to doc, refactor, test | Mini-lecture | Either presenter |
+| 0:15–0:25 | Mini-lecture: how to doc, refactor, test | Mini-lecture | Eric (Jackie may popcorn) |
 | 0:25–0:30 | Formality aside: when buy vs build (2 min within lecture) | Mini-lecture | Lead |
 | 0:30–0:38 | Keystone exercise (individual → pair share) | Exercise | Lead |
 | 0:38–0:43 | Optional plenary share + Monday conversation script | Discussion | Lead |
@@ -59,7 +59,7 @@ By the end of Part 2, attendees should be able to:
 
 ## Mini-Lecture: How to Doc, Refactor, Test (~10 min)
 
-Either presenter leads. **Differentiation from Part 1**: Part 1 showed doc publishing as inspiration; this segment covers **what to write** and **when to start**.
+Eric leads; Jackie may add popcorn examples. **Differentiation from Part 1**: Part 1 showed doc publishing as inspiration; this segment covers **what to write** and **when to start**.
 
 ### Documentation
 

@@ -2,7 +2,7 @@
 
 **Created**: 2026-05-18  
 **Duration**: ~45 minutes  
-**Default lead**: TBD (Eric — agent demos)  
+**Lead**: Eric · **Support**: Jackie (fixed for full workshop)  
 **HLD Link**: [High-Level Design](../../high-level-design.md)
 
 ## Overview

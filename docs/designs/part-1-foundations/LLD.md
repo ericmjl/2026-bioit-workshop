@@ -2,7 +2,7 @@
 
 **Created**: 2026-05-18
 **Duration**: ~45 minutes
-**Default lead**: TBD (Eric or Jackie — assign in run-of-show)
+**Lead**: Eric · **Support**: Jackie (fixed for full workshop)
 **HLD Link**: [High-Level Design](../../high-level-design.md)
 
 ## Overview
@@ -30,7 +30,7 @@ By the end of Part 1, attendees should be able to:
 | 0:30–0:35 | Plenary debrief: 2–3 groups share | Discussion | Support runs mic |
 | 0:35–0:42 | Demo: what frictionless project start looks like | Live demo | Lead demos; support helps follow-along |
 | 0:42–0:45 | Demo: what docs-from-code looks like + bridge to break | Live demo + close | Lead demos |
-| 0:45 | **Hard stop → 15m break** | Break | Swap roles if planned |
+| 0:45 | **Hard stop → 15m break** | Break | — |
 
 **Timebox rule**: If discussion runs long at 0:28, cut plenary to one share and move to demos. Demos are non-negotiable — they set up Part 2 by showing the destination.
 

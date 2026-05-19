@@ -1,7 +1,7 @@
 # BioIT World 2026 Workshop — High-Level Design
 
 **Created**: 2026-05-18
-**Presenters**: Eric Ma, Jackie (co-presenters; roles may swap midway)
+**Presenters**: Eric Ma (lead), Jackie (support) — fixed roles for the full session
 **Format**: Slide-less, Socratic workshop (discussion + live demos)
 **Scheduled duration**: 3 hours booked → ~2h 15m content + 15m break
 
@@ -51,14 +51,13 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 │  • Small-group discuss  │  • Build vs buy     │  • Why standards│
 │  • Bus factor, onboard  │  • Formality levels │    still matter │
 │  • What we ship         │  • Doc/refactor/test│  • Matt Pocock  │
-│  • Live demos: repo     │    (either presenter│    architecture │
-│    init, doc publish    │     may lead)       │  • Marimo refactor│
+│  • Live demos: repo     │  • Doc/refactor/test│    architecture │
+│    init, doc publish    │    mini-lecture     │  • Marimo refactor│
 │                         │                     │  • Marimo Pair   │
 └─────────────────────────┴─────────────────────┴─────────────────┘
          ↑                           ↑                      ↑
-    Either presenter may     Either presenter may    Demo-heavy
-    lead; other supports     lead; other supports    (observe-along)
-    (hands-on help, mic)     (hands-on help, mic)
+    Eric leads; Jackie         Eric leads; Jackie        Eric leads;
+    supports (mic, room)       supports (popcorn OK)     Jackie supports
 ```
 
 **Supporting materials** (not delivered in-room, but part of the content system):
@@ -109,13 +108,13 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 
 **Rationale**: Agents are the "gateway drug" only *after* fundamentals are motivated. Part 3 explicitly answers: "Why constrain ourselves with standards when agents exist?" — because agents need patterns to follow.
 
-### Decision 5: Flexible co-presenter roles (swap midway)
+### Decision 5: Fixed co-presenter roles (no midway swap)
 
-**Choice**: Eric and Jackie are co-presenters, not fixed lead + TA. Either may lead a segment (discussion, lecture, or demo) while the other supports the room — hands-on help, mic routing, question triage, popcorn contributions. They may swap roles midway through the workshop.
+**Choice**: Eric leads the full session (discussion, lecture, demos). Jackie supports throughout — hands-on help, mic routing, question triage, circulation during small groups. Jackie may add **popcorn** examples (one voice at a time) but does not take over as segment lead. Eric and Jackie are **not** swapping lead/support at the break or between parts.
 
-**Rationale**: Two-person delivery scales better in a workshop room. Flexible swapping keeps both presenters engaged, lets each lead topics they know well (e.g., doc/refactor/test), and avoids one person being relegated to support for the full three hours.
+**Rationale**: Two-person delivery scales better in a workshop room without a handoff mid-session. A single lead keeps transitions smooth; support stays focused on the room. Jackie stays engaged via support duties and targeted contributions without a role swap.
 
-**Operational note**: Run-of-show should assign a default lead per segment, with explicit swap points (e.g., at the break).
+**Operational note**: Run-of-show and facilitator runbook list Eric as lead and Jackie as support for all three parts.
 
 ## Success Criteria (How We Know It Worked)
 

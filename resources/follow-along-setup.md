@@ -3,8 +3,6 @@
 Install this **before the workshop** if you want to follow along live. Observe-along
 in the room is still fine — you do not need any of this installed during the session.
 
-**Python**: 3.11+ (the workshop `pixi.toml` uses 3.12).
-
 ## Overview
 
 | Tool | Role in this workshop |

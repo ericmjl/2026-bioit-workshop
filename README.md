@@ -24,8 +24,6 @@ pyds system status
 npx --version
 ```
 
-**Python**: 3.11+ (repo `pixi.toml` uses 3.12).
-
 ### Try it from this repo
 
 ```bash

@@ -2,75 +2,59 @@
 
 Workshop materials for **BioIT World 2026** (Boston).
 
-**In the room**: observe-along is enough — you do not need anything installed during
-the session. **Follow-along** is supported if you want to run demos on your machine.
+**In the room:** observe-along is enough — you do not need anything installed during the session.
 
-## Follow-along setup (uv + pixi)
+## Optional follow-along setup
 
-Install **[uv](https://docs.astral.sh/uv/)** and **[pixi](https://pixi.sh)** before
-the workshop. Full step-by-step guide:
-[`resources/follow-along-setup.md`](resources/follow-along-setup.md).
+Install these **before the workshop** only if you want to run demos on your own machine.
 
-**Quick start** (after installing uv and pixi):
+**uv** (macOS / Linux):
 
 ```bash
-pixi global install nodejs   # provides npx (Marimo Pair skill install)
-git clone https://github.com/ericmjl/2026-bioit-workshop.git
-cd 2026-bioit-workshop
-pixi install
-uv tool install pyds-cli
-pyds configure
-pyds system status
-npx --version
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-### Try it from this repo
+**pixi** (macOS / Linux):
 
 ```bash
-pixi run serve-workshop-docs      # Part 1 — MkDocs demo
-pixi run open-messy-notebook     # Part 3 — uvx marimo edit --sandbox --no-token ...
-pixi run test-clean-fallback      # Part 3 — refactored package tests
+curl -fsSL https://pixi.sh/install.sh | sh
 ```
 
-## Workshop arc
+Restart your shell after each installer, then verify with `uv --version` and `pixi --version`.
+Windows: see the [uv](https://docs.astral.sh/uv/getting-started/installation/) and
+[pixi](https://pixi.sh/latest/installation/) installation docs.
 
-| Part | Topic | Follow-along |
-|------|-------|--------------|
-| 1 | Foundations & tooling | [`pyds-cli-setup.md`](resources/pyds-cli-setup.md), [`examples/pyds-init-demo/`](examples/pyds-init-demo/) |
-| 2 | Software standardization | [`keystone-worksheet.md`](resources/keystone-worksheet.md) |
-| 3 | Agents & automation | [`examples/messy/`](examples/messy/), [`matt-pocock-architecture-skill.md`](resources/matt-pocock-architecture-skill.md) |
+**npm** (via pixi global — installs Node.js and exposes `npm`, `npx`, and `node`):
 
-Facilitator prompts: [`discussion-questions.md`](resources/discussion-questions.md)
-
-**Presenters:** chronological runbook at [`resources/facilitator-runbook.md`](resources/facilitator-runbook.md).
-
-## Part-specific guides
-
-- **Environment (start here)**: [`follow-along-setup.md`](resources/follow-along-setup.md)
-- **Part 1 — pyds project init**: [`pyds-cli-setup.md`](resources/pyds-cli-setup.md)
-- **Part 1 — doc publishing**: [`demos/doc-publishing/`](demos/doc-publishing/) or [`examples/pyds-init-demo/`](examples/pyds-init-demo/)
-- **Part 3 — coding agents**: [`matt-pocock-architecture-skill.md`](resources/matt-pocock-architecture-skill.md)
-- **Part 3 — Marimo Pair**: [`marimo-pair-setup.md`](resources/marimo-pair-setup.md)
-
-## Repo layout
-
+```bash
+pixi global install nodejs
+npm --version
 ```
-pixi.toml               Workshop follow-along environment (uv + pixi)
-examples/
-  messy/                Part 3 prep staging (copy into live pyds project)
-  clean/                Part 3 refactor fallback
-  pyds-init-demo/       Part 1 pyds init fallback
-demos/
-  doc-publishing/       Part 1 docs demo (minimal MkDocs)
-resources/              Setup guides, worksheets, discussion prompts
-docs/                   Workshop design documents (HLD, LLDs, EARS)
-```
+
+## Workshop outline
+
+**~2h 15m content + 15m break** (3-hour slot). Slide-less, discussion-first, observe-along demos.
+
+### Part 1 — Foundations & tooling (~45 min)
+
+Small-group discussion: what your team ships, bus factor, onboarding friction. Live demos
+show the destination — frictionless project start and docs that flow from the repo — not a
+hands-on install tutorial.
+
+### Break (15 min)
+
+### Part 2 — Software standardization (~45 min)
+
+Discussion and mini-lecture on documentation, refactoring, and testing — the practices that
+get you to the Part 1 destination. Keystone exercise: one high-pain, low-effort change to
+propose to your team on Monday.
+
+### Part 3 — Agents & automation (~45 min)
+
+Why standards still matter in the agent age. Live demos: agent-assisted refactor of messy
+notebooks and Marimo Pair. Exit reflection: one artifact, one keystone change, one tool to explore.
 
 ## Depth reading
 
 [Data Science Bootstrap Notes](https://ericmjl.github.io/data-science-bootstrap-notes/) —
-companion ebook for practices covered in Parts 1–3.
-
-## Design docs
-
-Workshop structure and artifact specs live under [`docs/`](docs/).
+companion ebook for practices covered in the workshop.

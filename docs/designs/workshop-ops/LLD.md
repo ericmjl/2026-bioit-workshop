@@ -1,6 +1,6 @@
 # Workshop Operations — Low-Level Design
 
-**Created**: 2026-05-18  
+**Created**: 2026-05-18
 **HLD Link**: [High-Level Design](../../high-level-design.md)
 
 ## Overview
@@ -75,17 +75,19 @@ Follow PyData Boston pattern: public GitHub repo linked at session start.
     ├── discussion-questions.md
     ├── keystone-worksheet.md
     ├── exit-reflection.md
-    ├── pyds-cli-setup.md     # Install, configure, pyds project init (Part 1)
+    ├── pyds-cli-setup.md     # Part 1: pyds configure + project init
+    ├── follow-along-setup.md # Participant setup (uv + pixi)
     ├── matt-pocock-architecture-skill.md
     └── marimo-pair-setup.md
 ```
 
 ### README must include
 
-- [ ] Python version requirement
-- [ ] Optional: coding agent setup (Cursor, Claude Code, etc.)
-- [ ] Optional: Marimo / Marimo Pair install
-- [ ] "Observe-along is fine — you don't need any of this installed for the session"
+- [ ] Python version requirement (3.11+)
+- [ ] **Follow-along setup** — uv + pixi quick start; `pixi global install nodejs` for `npx`; link to `resources/follow-along-setup.md`
+- [ ] Observe-along is fine in-room; follow-along is optional and supported
+- [ ] Links to part-specific guides (pyds-cli, coding agents, Marimo Pair)
+- [ ] Link to [Data Science Bootstrap Notes](https://ericmjl.github.io/data-science-bootstrap-notes/)
 
 ## Environment Prep Checklist
 
@@ -99,7 +101,7 @@ Follow PyData Boston pattern: public GitHub repo linked at session start.
 - [ ] Copy from `examples/messy/` into live pyds project `notebooks/` rehearsed
 - [ ] Agent + architecture skill tested on copied notebooks in live project
 - [ ] Clean fallback artifacts verified (`examples/clean/`, `examples/pyds-init-demo/`)
-- [ ] Marimo Pair tested
+- [ ] `pixi global install nodejs` completed; `npx --version` passes (Marimo Pair skill install)
 
 ### Room / AV
 
@@ -156,6 +158,7 @@ Source inputs:
 
 - [Materials Repo EARS](./materials-repo-EARS.md)
 - [Discussion Questions EARS](./discussion-questions-EARS.md)
+- [Follow-Along Setup EARS](./follow-along-setup-EARS.md)
 
 ## Related Documents
 

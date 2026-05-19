@@ -1,8 +1,8 @@
 # Part 1: Foundations & Tooling — Low-Level Design
 
-**Created**: 2026-05-18  
-**Duration**: ~45 minutes  
-**Default lead**: TBD (Eric or Jackie — assign in run-of-show)  
+**Created**: 2026-05-18
+**Duration**: ~45 minutes
+**Default lead**: TBD (Eric or Jackie — assign in run-of-show)
 **HLD Link**: [High-Level Design](../../high-level-design.md)
 
 ## Overview

@@ -5,26 +5,26 @@
 
 ## File Structure
 
-- [ ] **ART-DISC-001**: The discussion questions file shall be organized by workshop part (Part 1, Part 2).
-- [ ] **ART-DISC-002**: Each part section shall include facilitator setup scripts where the LLD specifies them (bridge in/out, block setup).
-- [ ] **ART-DISC-003**: Each discussion block shall list numbered prompts attendees discuss in small groups.
+- [x] **ART-DISC-001**: The discussion questions file shall be organized by workshop part (Part 1, Part 2).
+- [x] **ART-DISC-002**: Each part section shall include facilitator setup scripts where the LLD specifies them (bridge in/out, block setup).
+- [x] **ART-DISC-003**: Each discussion block shall list numbered prompts attendees discuss in small groups.
 
 ## Part 1: Team Inventory
 
-- [ ] **ART-DISC-010**: Part 1 shall include a setup script instructing attendees to discuss **team** work, not personal projects.
-- [ ] **ART-DISC-011**: Block A (team inventory) shall include prompts covering: monthly outputs, consistency across members, collaborator-facing answer, one-off vs reused work.
-- [ ] **ART-DISC-012**: Block B (bus factor) shall include prompts covering: specialized member departure, onboarding onto others' work, silos, team growth.
+- [x] **ART-DISC-010**: Part 1 shall include a setup script instructing attendees to discuss **team** work, not personal projects.
+- [x] **ART-DISC-011**: Block A (team inventory) shall include prompts covering: monthly outputs, consistency across members, collaborator-facing answer, one-off vs reused work.
+- [x] **ART-DISC-012**: Block B (bus factor) shall include prompts covering: specialized member departure, onboarding onto others' work, silos, team growth.
 
 ## Part 2: Practices
 
-- [ ] **ART-DISC-020**: Part 2 shall include a bridge-in script referencing Part 1 as destination and Part 2 as road.
-- [ ] **ART-DISC-021**: Block A (docs/refactor/test) shall include prompts covering: where docs live, when to refactor, testing maturity, expected pushback.
-- [ ] **ART-DISC-022**: Part 2 shall include a bridge to the mini-lecture on doc, refactor, and test practices.
+- [x] **ART-DISC-020**: Part 2 shall include a bridge-in script referencing Part 1 as destination and Part 2 as road.
+- [x] **ART-DISC-021**: Block A (docs/refactor/test) shall include prompts covering: where docs live, when to refactor, testing maturity, expected pushback.
+- [x] **ART-DISC-022**: Part 2 shall include a bridge to the mini-lecture on doc, refactor, and test practices.
 
 ## Facilitator Notes
 
-- [ ] **ART-DISC-030**: Where useful, the file shall include brief facilitator notes (e.g., edge-case responses) drawn from the Part 1 and Part 2 LLDs.
-- [ ] **ART-DISC-031**: The file shall not include demo step-by-step scripts — those belong in demo artifact specs.
+- [x] **ART-DISC-030**: Where useful, the file shall include brief facilitator notes (e.g., edge-case responses) drawn from the Part 1 and Part 2 LLDs.
+- [x] **ART-DISC-031**: The file shall not include demo step-by-step scripts — those belong in demo artifact specs.
 
 ## Related Documents
 

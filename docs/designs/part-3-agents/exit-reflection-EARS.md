@@ -5,12 +5,12 @@
 
 ## Handout Content
 
-- [ ] **ART-P3-EXIT-001**: The exit reflection handout shall prompt attendees to record three items:
+- [x] **ART-P3-EXIT-001**: The exit reflection handout shall prompt attendees to record three items:
   1. One technical artifact their team should standardize on
   2. One keystone change they will propose next week
   3. One tool they will explore post-workshop
-- [ ] **ART-P3-EXIT-002**: The handout shall include blank space or lines for each of the three items.
-- [ ] **ART-P3-EXIT-003**: The handout shall include post-workshop links: materials repo URL placeholder and Data Science Bootstrap ebook URL.
+- [x] **ART-P3-EXIT-002**: The handout shall include blank space or lines for each of the three items.
+- [x] **ART-P3-EXIT-003**: The handout shall include post-workshop links: materials repo URL placeholder and Data Science Bootstrap ebook URL.
 
 ## Related Documents
 

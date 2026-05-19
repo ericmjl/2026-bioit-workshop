@@ -1,8 +1,8 @@
 # BioIT World 2026 Workshop — High-Level Design
 
-**Created**: 2026-05-18  
-**Presenters**: Eric Ma, Jackie (co-presenters; roles may swap midway)  
-**Format**: Slide-less, Socratic workshop (discussion + live demos)  
+**Created**: 2026-05-18
+**Presenters**: Eric Ma, Jackie (co-presenters; roles may swap midway)
+**Format**: Slide-less, Socratic workshop (discussion + live demos)
 **Scheduled duration**: 3 hours booked → ~2h 15m content + 15m break
 
 ## Problem Statement
@@ -63,7 +63,7 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 
 **Supporting materials** (not delivered in-room, but part of the content system):
 
-- Git repo with follow-along setup (PyData Boston pattern)
+- Git repo with follow-along setup ([uv](https://docs.astral.sh/uv/) + [pixi](https://pixi.sh); see `resources/follow-along-setup.md`)
 - Example messy Marimo notebooks (prep staging in materials repo; copied into live pyds project during Part 3) + cleaned refactor fallback
 - Discussion question sets per section
 - Presenter run-of-show notes
@@ -99,7 +99,7 @@ This workshop gives team leads a **playbook and vocabulary** to standardize what
 
 ### Decision 3: Observe-along demos (not mandatory hands-on)
 
-**Choice**: One presenter demos live while the other supports the room; attendees watch. Repo available for later.
+**Choice**: One presenter demos live while the other supports the room; attendees watch. Repo available for later follow-along (uv, pixi, `npx` via `pixi global install nodejs`).
 
 **Rationale**: Not everyone has a coding agent or identical environment. The supporting presenter helps those who follow along hands-on.
 

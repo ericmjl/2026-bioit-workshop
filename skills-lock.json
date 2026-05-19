@@ -6,6 +6,18 @@
       "sourceType": "github",
       "skillPath": "skills/coherent-writing/SKILL.md",
       "computedHash": "c8664ca3c41323e902f5ebbc7accde3a4d0a3187ea491ae9f2851571e7379408"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "c77b86b4332919499608f9af1880074e1fec65a59b95c70c27a9f39cd137865e"
+    },
+    "marimo-pair": {
+      "source": "marimo-team/marimo-pair",
+      "sourceType": "github",
+      "skillPath": "skills/marimo-pair/SKILL.md",
+      "computedHash": "d2b0a585d449096a985e1fe20a6a6fff4991ab3004a7757b1d5a03cfa8bd28ea"
     }
   }
 }

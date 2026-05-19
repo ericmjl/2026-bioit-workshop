@@ -1,3 +1,11 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "marimo>=0.23.6",
+#     "numpy==2.4.6",
+#     "pandas==3.0.3",
+# ]
+# ///
 """Marimo notebook: QC pass on primary screening hits.
 
 Prep artifact — copy into a pyds project's ``notebooks/`` for Part 3 demo.
@@ -11,10 +19,11 @@ app = marimo.App(width="medium")
 
 @app.cell
 def __():
-    import marimo as mo
-    import pandas as pd
-    import numpy as np
     from pathlib import Path
+
+    import marimo as mo
+    import numpy as np
+    import pandas as pd
 
     return Path, mo, np, pd
 

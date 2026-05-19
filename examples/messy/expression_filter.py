@@ -15,46 +15,19 @@ def __():
     import pandas as pd
     import numpy as np
     from pathlib import Path
+    from assay_helpers.loaders import load_assay_table
+    from assay_helpers.normalization import normalize_to_control
+    from assay_helpers.qc import remove_outliers
 
-    return Path, mo, np, pd
-
-
-@app.cell
-def __(Path, pd):
-    def load_assay_table(file_path: Path) -> pd.DataFrame:
-        """Load a gene x sample count matrix exported from the LIMS."""
-        counts = pd.read_csv(file_path, index_col=0)
-        counts.index = counts.index.astype(str)
-        counts.columns = [c.strip() for c in counts.columns]
-        return counts
-
-    return (load_assay_table,)
-
-
-@app.cell
-def __(np):
-    def remove_outliers(values: np.ndarray, z_thresh: float = 3.5) -> np.ndarray:
-        """Flag sample-level library size outliers on log scale."""
-        log_vals = np.log1p(values)
-        mu = float(np.mean(log_vals))
-        sigma = float(np.std(log_vals))
-        if sigma == 0:
-            return values
-        z = np.abs((log_vals - mu) / sigma)
-        cleaned = values.copy()
-        cleaned[z > z_thresh] = np.nan
-        return cleaned
-
-    return (remove_outliers,)
-
-
-@app.cell
-def __(np):
-    def normalize_to_control(values: np.ndarray, control_mean: float) -> np.ndarray:
-        """CPM-style scaling against housekeeping control column mean."""
-        return (values / control_mean) * 1_000_000.0
-
-    return (normalize_to_control,)
+    return (
+        Path,
+        load_assay_table,
+        mo,
+        normalize_to_control,
+        np,
+        pd,
+        remove_outliers,
+    )
 
 
 @app.cell
@@ -71,11 +44,19 @@ def __(load_assay_table, mo, normalize_to_control, np, Path, pd, remove_outliers
     demo_path = Path("_demo_expression.csv")
     demo.to_csv(demo_path)
 
-    matrix = load_assay_table(demo_path)
+    matrix = load_assay_table(demo_path, kind="expression_matrix")
     library_sizes = matrix.sum(axis=0).to_numpy()
-    cleaned_sizes = remove_outliers(library_sizes)
+    cleaned_sizes = remove_outliers(
+        library_sizes,
+        method="log_zscore",
+        z_thresh=3.5,
+    )
     control_mean = float(np.nanmean(cleaned_sizes))
-    scaled = normalize_to_control(matrix["sample_treat"].to_numpy(), control_mean)
+    scaled = normalize_to_control(
+        matrix["sample_treat"].to_numpy(),
+        control_mean,
+        mode="cpm",
+    )
 
     mo.md(
         f"**Expression filter:** kept {len(genes)} genes; "

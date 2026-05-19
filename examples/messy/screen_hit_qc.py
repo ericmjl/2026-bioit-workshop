@@ -24,49 +24,19 @@ def __():
     import marimo as mo
     import numpy as np
     import pandas as pd
+    from assay_helpers.loaders import load_assay_table
+    from assay_helpers.normalization import normalize_to_control
+    from assay_helpers.qc import remove_outliers
 
-    return Path, mo, np, pd
-
-
-@app.cell
-def __(Path, pd):
-    def load_assay_table(path: Path) -> pd.DataFrame:
-        """Load a 384-well plate export from the CDD vault."""
-        df = pd.read_csv(path)
-        df.columns = [c.strip().lower() for c in df.columns]
-        if "well" not in df.columns:
-            raise ValueError("expected a well column")
-        df["well"] = df["well"].astype(str)
-        return df
-
-    return (load_assay_table,)
-
-
-@app.cell
-def __(np):
-    def remove_outliers(values: np.ndarray, z_thresh: float = 3.0) -> np.ndarray:
-        """Drop wells more than z_thresh standard deviations from the plate mean."""
-        mu = float(np.mean(values))
-        sigma = float(np.std(values))
-        if sigma == 0:
-            return values
-        z = np.abs((values - mu) / sigma)
-        cleaned = values.copy()
-        cleaned[z > z_thresh] = np.nan
-        return cleaned
-
-    return (remove_outliers,)
-
-
-@app.cell
-def __(np):
-    def normalize_to_control(values: np.ndarray, control_mean: float) -> np.ndarray:
-        """Express signal relative to DMSO control wells."""
-        if control_mean == 0:
-            raise ValueError("control mean must be non-zero")
-        return values / control_mean
-
-    return (normalize_to_control,)
+    return (
+        Path,
+        load_assay_table,
+        mo,
+        normalize_to_control,
+        np,
+        pd,
+        remove_outliers,
+    )
 
 
 @app.cell
@@ -81,10 +51,10 @@ def __(load_assay_table, mo, normalize_to_control, np, Path, pd, remove_outliers
     demo_path = Path("_demo_screen_hits.csv")
     demo.to_csv(demo_path, index=False)
 
-    raw = load_assay_table(demo_path)
-    cleaned = remove_outliers(raw["signal"].to_numpy())
+    raw = load_assay_table(demo_path, kind="plate")
+    cleaned = remove_outliers(raw["signal"].to_numpy(), method="zscore", z_thresh=3.0)
     control_mean = float(np.nanmean(cleaned[:3]))
-    normalized = normalize_to_control(cleaned, control_mean)
+    normalized = normalize_to_control(cleaned, control_mean, mode="ratio")
 
     mo.md(
         f"**QC summary:** {np.isnan(cleaned).sum()} outliers flagged; "

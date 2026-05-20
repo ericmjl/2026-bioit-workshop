@@ -66,6 +66,7 @@ Eric leads; Jackie may add popcorn examples. **Differentiation from Part 1**: Pa
 - Doc what the *next person* needs: install, run, inputs/outputs, assumptions
 - Start now — even a README beats a wiki page nobody updates
 - Docs in the repo (Part 1 demo) only help if you actually write them
+- Adoption pattern: quarterly [docathon](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) — blocked calendar time so documentation is socially acceptable
 
 ### Refactoring
 

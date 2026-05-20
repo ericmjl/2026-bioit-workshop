@@ -15,6 +15,7 @@ low effort**.
 - Adopt `pyds project init` for new repos
 - Migrate off conda to pixi (staged, one project at a time)
 - Require docs in the repo (README minimum) for anything shared outside the team
+- Run a quarterly **docathon** — two blocked days per quarter for focused documentation (see depth reading in repo README)
 
 **My keystone change**
 
@@ -71,3 +72,7 @@ at a time), unlocked running multiple Python versions for research.
 **Standardizing shipping format** — Team agreed on what DS delivers (e.g.,
 always a versioned package + published doc). Clarity for collaborators; reduced
 "what did you actually ship?" confusion.
+
+**Quarterly docathon** — High pain (docs always lose to shipping pressure), low
+organizer overhead (calendar invite + food + sign-up sheet). Makes documentation
+socially acceptable; review pairs increase adoption.

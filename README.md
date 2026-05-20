@@ -56,5 +56,7 @@ notebooks and Marimo Pair. Exit reflection: one artifact, one keystone change, o
 
 ## Depth reading
 
-[Data Science Bootstrap Notes](https://ericmjl.github.io/data-science-bootstrap-notes/) —
-companion ebook for practices covered in the workshop.
+- [Data Science Bootstrap Notes](https://ericmjl.github.io/data-science-bootstrap-notes/) —
+  companion ebook for practices covered in the workshop.
+- [Two years of docathons](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) —
+  how to run a lightweight quarterly docathon so documentation actually happens on a team.

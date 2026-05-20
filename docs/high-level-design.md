@@ -138,6 +138,7 @@ Attendees can articulate (on exit or in a brief reflection):
 ## Source Material
 
 - [Data Science Bootstrap Notes](https://ericmjl.github.io/data-science-bootstrap-notes/) (ebook)
+- [Two years of docathons](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/) (documentation culture playbook)
 - Transcript: `transcripts/20260518-ideas.md` (interview — audience takeaways)
 - Transcript: `transcripts/20260518-1-on-1-with-jackie.md` (session structure + roles)
 

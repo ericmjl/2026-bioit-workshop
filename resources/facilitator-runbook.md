@@ -158,6 +158,10 @@ Keep live pyds project open for Part 3.
 
 **Doc:** what the next person needs — install, run, I/O, assumptions. README beats wiki.
 
+*Optional popcorn:* if the room asks "how do we actually make time for docs?" — point to
+the [docathon post](https://ericmjl.github.io/blog/2024/6/30/two-years-of-docathons-insights-and-lessons-learned/)
+in README depth reading.
+
 **Refactor:** duplicate code is the signal → modules, CLI, package. Not elegance — reuse.
 
 **Test:** smoke tests on core logic; CI on push; trust for refactors and agent changes.
